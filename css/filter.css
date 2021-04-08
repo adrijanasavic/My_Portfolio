@@ -1,0 +1,35 @@
+.filters .btn {
+  border-color: transparent;
+  font-size: .8rem;
+  margin: 5px;
+  background: rgba(52, 58, 64, 0.05);
+  color: #343a40;
+  text-transform: uppercase; }
+  .filters .btn:hover {
+    border-color: transparent;
+    background: pink;
+    color: #fff; }
+	
+  .filters .btn.active {
+    background: pink !important;
+    color: #fff;
+    border-color: pink !important;
+    -webkit-box-shadow: 0 4px 15px -3px rgba(0, 123, 255, 0.5) !important;
+    box-shadow: 0 4px 15px -3px rgba(0, 123, 255, 0.5) !important; 
+  }
+	
+
+
+
+.is-animated {
+  animation: .6s zoom-in;
+}
+
+@keyframes zoom-in {
+  0% {
+   transform: scale(.1);
+  } 
+  100% {
+    transform: none;
+  }
+}
